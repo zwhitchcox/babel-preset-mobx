@@ -1,6 +1,6 @@
-# babel-preset-react
+# babel-preset-mobx
 
-> Babel preset for all React plugins.
+> Babel preset for all Mobx plugins.
 
 ## Install
 
