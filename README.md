@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-$ npm install --save-dev babel-preset-react
+$ npm install --save-dev babel-preset-mobx
 ```
 
 ## Usage
@@ -16,20 +16,20 @@ $ npm install --save-dev babel-preset-react
 
 ```json
 {
-  "presets": ["react"]
+  "presets": ["mobx"]
 }
 ```
 
 ### Via CLI
 
 ```sh
-$ babel script.js --presets react 
+$ babel script.js --presets mobx 
 ```
 
 ### Via Node API
 
 ```javascript
 require("babel-core").transform("code", {
-  presets: ["react"]
+  presets: ["mobx"]
 });
 ```
