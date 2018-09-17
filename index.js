@@ -1,10 +1,10 @@
 module.exports = function() {
     return {
         plugins: [
-            'transform-decorators-legacy',
-            'transform-class-properties',
-            'transform-es2015-classes',
-            ['transform-regenerator', { asyncGenerators: false }],
+            ['@babel/plugin-proposal-decorators', { legacy: true }],
+            ['@babel/plugin-proposal-class-properties', { loose: true }],
+            '@babel/plugin-transform-classes',
+            ['@babel/plugin-transform-regenerator', { asyncGenerators: false }],
         ],
     };
 };
